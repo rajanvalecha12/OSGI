@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ConverterConsumer
+Bundle-SymbolicName: ConverterConsumer
+Bundle-Version: 1.0.1.qualifier
+Bundle-Activator: converterconsumer.Activator
+Bundle-Vendor: Rajan
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: converterservice.mathservice,
+ converterservice.mathservice.util,
+ org.osgi.framework;version="1.3.0"
+Require-Bundle: ConverterService;bundle-version="1.0.0",
+ org.apache.felix.gogo.command;bundle-version="0.10.0",
+ org.apache.felix.gogo.runtime;bundle-version="0.10.0",
+ org.apache.felix.gogo.shell;bundle-version="0.10.0",
+ org.eclipse.equinox.console;bundle-version="1.1.100",
+ org.eclipse.osgi;bundle-version="3.10.101"
